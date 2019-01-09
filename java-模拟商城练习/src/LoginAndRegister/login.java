@@ -35,12 +35,14 @@ public class login {
                 if (username.equals(userinfo[i][0]) && password.equals(userinfo[i][1])) {
 
                     flag = true;
+                    break;
                 } else {
 
                     flag = false;
                 }
 
         }
+
         return flag;
 
     }
