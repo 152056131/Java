@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style:none;
+}
+li{
+    float: left;
+}
+
+
+.wrapper{
+    position: relative;
+    left: 40%;
+    width: 400px;
+    height:500px;
+    border: 1px solid black;
+    background-color: yellow;
+    margin-top: 200px;
+}
+.wrapper .top{
+    position: relative;
+    margin-top: 30px;
+    width: 400px;
+    height: 150px;
+
+    text-align: center;
+}
+.wrapper .top .computer-pic{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: white;
+    overflow: hidden;
+
+
+
+}
+.wrapper .top .computer .computer-pic .ul-pic{
+    margin-top: -100px;
+    display: none;
+}
+.wrapper .top .computer .computer-pic .ul-pic img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.wrapper .top .score{
+    position: relative;
+    top: -130px;
+}
+.wrapper .top .player{
+    position: relative;
+    bottom: 123px;
+    left: 290px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-color:white;
+    background-position-y: 0.3em;
+    
+
+}
+.wrapper .bottom{
+    width: 350px;
+    height: 320px;
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 25px;
+
+}
+.wrapper .bottom .choose-pic{
+    width: 350px;
+    height: 130px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+.wrapper .bottom .choose-pic img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.wrapper .bottom .btn-rstart{
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: blue;
+    margin-top: 110px;
+    margin-left: 130px;
+    cursor: pointer;
+    border: none;
+}
+.wrapper .bottom .btn-rstart:hover{
+    background-color: red;
+}
+.wrapper .bottom .btn-start{
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+   border: none;
+   background-color: red;
+   margin-left: 20px;
+
+}
+.wrapper .bottom .btn-start:hover{
+    background-color: purple;
+}
+
