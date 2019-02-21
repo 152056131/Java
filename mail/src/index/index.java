@@ -135,7 +135,7 @@ public class index {
                                                     }
                                                 }
                                             }
-                                        }else{
+                                        } else {
                                             System.out.println("你要买的我这没有");
                                         }
                                     }
